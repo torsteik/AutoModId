@@ -79,7 +79,7 @@ end
 
 K      = length(find(hash));                         % K-fold cv
 folds  = crossvalind('Kfold',length(find(hash)), K);
-hash(find(hash)) = folds; % Bytt ut med hash == 1 eler noe sånt
+hash(find(hash)) = folds; % Bytt ut med hash == 1 eler noe sÃ¥nt
 
 folds = zeros(1,length(x_ts));
 j = 0;
@@ -174,7 +174,7 @@ end
 
 K      = 10;                         % K-fold cv
 folds  = crossvalind('Kfold',length(find(hash)), K);
-hash(find(hash)) = folds; % Bytt ut med hash == 1 eler noe sånt
+hash(find(hash)) = folds; % Bytt ut med hash == 1 eler noe sÃ¥nt
 
 folds = zeros(1,length(x_ts));
 j = 0;
