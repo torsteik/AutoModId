@@ -29,7 +29,7 @@ R = zeros(1,N);
 
 % Filter factors and variance thresholds
 if n == 1
-    lambda_1 = 0.2*h; % 0.2 og 0.09 Ser også bra ut
+    lambda_1 = 0.2*h; % 0.2 og 0.09 Ser ogsÃ¥ bra ut
     lambda_2 = 0.5*h;
     lambda_3 = 0.075*h;   
     
