@@ -117,7 +117,7 @@ weights = ones(1,length(x));
 % end
 
 for i = 1:length(x)
-    pair = find(folds == folds(i));
+    pair = find(folds == folds(i)); % WOAH, SOMETHING IS WRONG HERE. THIS COULD BE SEVERAL PAIRS
     if length(pair) == 2
         weights(i) = 1/((m(pair(1)) + m(pair(2)))/2)^2;
     else
